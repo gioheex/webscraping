@@ -22,7 +22,6 @@ for product in products:
     
     value_cents = product.find('span', attrs={'class': 'andes-money-amount__cents andes-money-amount__cents--superscript-16'})
 
-# print(product.prettify())
     print('titulo do produto: ', title.text)
     print('link do produto: ', link['href'])
     if value_cents == True:
